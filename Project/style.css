@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    margin: 0;
+    font-family: 'SF Pro Display', 'Poppins', serif;
+    color: #fff;
+}    
+
+nav{
+      margin: 48px 30px;
+    }
+
+ul{
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      justify-content: flex-end;
+     }
+     
+li a{
+      text-decoration: none;
+      color: #000000;
+      font-weight: 500;
+      font-size: 18px;
+     }
+     
+.active{
+      border-bottom: 2px solid #000000;
+     }
+     
+
+/* Form styling start from here */
+
+fieldset {
+    float: left;
+    padding-left: 4%;
+    border: solid 0px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+    color: white;
+  }
+  
+
+  label{
+    display: inline-block;
+  }
+  
+  label:first-of-type {
+    margin-top: 0;
+  }
+  
+  input {
+    width: 100;
+    padding: 12px;
+    border: solid 1px #999;
+    
+  }
+  
+  input[type="email"],  input[type="text"]  {
+    width: 100%;
+    font-family: 'SF Pro Display', 'Poppins', serif;
+    }
+  
+  textarea {
+    min-height: 15em;
+    width: 100%;
+    padding: 12px;
+    border: solid px #999;
+  }
+  
+  /* Submit Button */
+  input[type="submit"] {
+    width: 8%;
+    background-color: white;
+    color: #00c0f0;
+    padding: 14px 5px;
+    margin: 15px 0;
+    border: solid 1px #00c0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3%;
+    font-size: medium;
+  }
+
+  
+  /* Large screen rules*/
+  @media screen and (min-width: 430px) {
+  
+  .fieldset {
+      width: 40%;
+      min-width: 320px;
+      margin: auto;
+    }
+  }
+
+  h3 {
+    padding-left: 4%;
+    padding-top: 5%;
+    color: #999;
+  }
+
+  p {
+    padding-left: 4%;
+    color: #999;
+
+  }
+
+.support p{
+    padding-left: 4%;
+    float: left;
+    text-align: left;
+    width: 100%;
+  }
+
+.email p{
+    padding-left: 4%;
+    float: left;
+    text-align: left;
+    margin: 0;
+}
+
